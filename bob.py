@@ -7,7 +7,7 @@ def response(hey_bob):
     elif("Bob" in hey_bob):
         return "Fine. Be that way!"
     elif(not (hey_bob.isalpha())):
-        return "Whatever."
+        return "Fine. Be that way!"
     elif(hey_bob[-1]=="?"):
         return "Sure."
     else:
