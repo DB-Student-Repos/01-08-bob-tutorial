@@ -9,5 +9,5 @@ def response(hey_bob):
     elif(hey_bob[-1]=="?"):
         return "Sure."
     else:
-        return "whatever"
+        return "whatever."
     
