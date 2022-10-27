@@ -6,7 +6,7 @@ def response(hey_bob):
             return "Whoa, chill out!"
     elif("Bob" in hey_bob):
         return "Fine. Be that way!"
-    elif(len(hey_bob)==0):
+    elif(!(hey_bob.isalpha())):
         return "Whatever."
     elif(hey_bob[-1]=="?"):
         return "Sure."
