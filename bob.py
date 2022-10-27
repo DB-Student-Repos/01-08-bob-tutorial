@@ -12,7 +12,7 @@ def response(hey_bob):
         else:
             return "Sure."
     elif(not (hey_bob.isalpha())):
-        return "Fine. Be that way!"
+        return "Sure."
     else:
         return "Whatever."
     
