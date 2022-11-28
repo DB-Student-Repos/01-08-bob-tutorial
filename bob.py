@@ -2,20 +2,13 @@
 
 
 def response(hey_bob):
-    if(hey_bob.isupper()):
-        if(hey_bob[-1]=="?"):
-            return "Calm down, I know what I'm doing!"
-        else:
-            return "Whoa, chill out!"
-    elif("Bob" in hey_bob):
-        return "Fine. Be that way!"
-    elif("?" in hey_bob):
-        if(hey_bob.split("?")[1].isalpha()):
-            return "Whatever."
-        else:
-            return "Sure."
-    elif(not (hey_bob.isalpha())):
+    if (hey_bob.strip()[-1] == "?"):
         return "Sure."
+    elif (hey_bob.isupper()):
+        return "Calm down, I know what I'm doing."
+    elif (len(hey_bob.strip()) == 0):
+        return "Fine. Be that way."
     else:
         return "Whatever."
+          
     
