@@ -1,3 +1,6 @@
+#Conditions, Iterations, strings
+
+
 def response(hey_bob):
     if(hey_bob.isupper()):
         if(hey_bob[-1]=="?"):
